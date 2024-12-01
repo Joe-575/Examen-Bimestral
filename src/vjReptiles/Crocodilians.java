@@ -14,6 +14,4 @@ public class Crocodilians extends Reptiles {
         System.out.println("\t Hola, soy un " + vjNombre);
         System.out.println("\t"+vjNombre+" saluda a todos");
     }
-
-
 }

@@ -30,8 +30,8 @@ public class tanqueMutacion {
         System.out.println("\n" +vjNombre + " es un Crocodilions /"+vjNombre+" sera mutado.... ");
 
         Random random = new Random();
-        int fileSize = random.nextInt(901) + 100; // Genera un número entre 100 y 1000 (kB)
-        int progressBarLength = 30; // Longitud de la barra de progreso
+        int fileSize = random.nextInt(901) + 100; 
+        int progressBarLength = 30; 
 
         System.out.println(" Irradiando (" + fileSize + " kB)...");
 
