@@ -20,12 +20,10 @@ public class tanqueMutacion {
                 vjAcceso = true;
                 break;
             } else {
-                System.out.println(" Clave incorrecta. Intente de nuevo.");
-                
+                System.out.println(" Clave incorrecta. Intente de nuevo.");  
             }
         }
         vjEntrada.close();
-        
     }
 
     public static void vjMutarCocodrilian(){
