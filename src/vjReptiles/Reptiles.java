@@ -12,4 +12,7 @@ public abstract class Reptiles extends Amniota{
         System.out.println(" Reptiles");
     }
 
+    public void vjSaludar(){
+        System.out.println(" Hola soy un reptil");
+    }
 }
