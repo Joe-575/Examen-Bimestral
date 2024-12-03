@@ -1,9 +1,13 @@
 package vjGnothostomata;
 
 public abstract class Gnothosmata {
-    public Gnothosmata(){
+    public Gnothosmata(int nivel){
         vjLoading();
-        System.out.println("|----Ghothosmata ");
+        for (int i = 0; i < nivel; i++) {
+            System.out.print("-");
+        }
+        System.out.print(" Ghothosmata ");
+        System.out.println();
     }
 
     public void vjLoading(){

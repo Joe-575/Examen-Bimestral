@@ -21,19 +21,19 @@ public class tanqueMutacion {
                 break;
             } else {
                 System.out.println("Clave incorrecta. Intente de nuevo.");
+                
             }
         }
     }
 
     public static void vjMutarCocodrilian(){
-        String vjNombre = "Crocodiliano";
-        System.out.println("\n" +vjNombre + " es un Crocodilions /"+vjNombre+" sera mutado.... ");
+        
 
         Random random = new Random();
         int fileSize = random.nextInt(901) + 100; 
         int progressBarLength = 30; 
 
-        System.out.println(" Irradiando (" + fileSize + " kB)...");
+        System.out.println(" Irradiando (" + fileSize + " mSv)");
 
         for (int i = 0; i <= 100; i++) {
             int filledLength = i * progressBarLength / 100;
@@ -44,7 +44,7 @@ public class tanqueMutacion {
             System.out.print("\r" + progressBar + " " + i + "%");
 
             try {
-                Thread.sleep(50); 
+                Thread.sleep(30); 
             } catch (InterruptedException e) {
                 System.out.println("\nError: " + e.getMessage());
             }

@@ -3,8 +3,12 @@ package vjOsteichthyes;
 import vjGnothostomata.Gnothosmata;
 
 public abstract class Osteichthyes extends Gnothosmata {
-    public Osteichthyes(){
+    public Osteichthyes(int nivel){
+        super(nivel-1);
         super.vjLoading();
-        System.out.println("|--------Osteichthyes ");
+        for (int i = 0; i < nivel; i++) {
+            System.out.print("-");
+        }
+        System.out.println(" Osteichthyes ");
     }
 }
